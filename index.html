@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="qWMJJT3HD7vYWZKLgSlmrNEZ2AtaKA5WuFOka3N8yZA" />
+  <title>Personal Google Calendar Bridge — App Disclosure</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
+    h1 { font-size: 1.4rem; }
+    .notice { background: #f0f0f0; border-left: 4px solid #4a90d9; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Personal Google Calendar Bridge</h1>
+  <p>This page describes the OAuth client ID used by my personal desktop AI assistant ("Hermes") to integrate with my own Google account.</p>
+
+  <div class="notice">
+    <strong>Single-user personal application.</strong> This app is not offered to the public. It is operated solely for the owner's own personal use and does not process, collect, sell, or share data on behalf of any third party.
+  </div>
+
+  <h2>Purpose</h2>
+  <p>The app requests access to the owner's Google Calendar and Contacts so that the desktop assistant can read schedule, create events, and check availability on the owner's behalf, all within the same local session.</p>
+
+  <h2>Scopes requested</h2>
+  <ul>
+    <li><code>auth/calendar</code> — read and write the owner's calendar</li>
+    <li><code>auth/contacts.readonly</code> — read contacts for attendee lookup</li>
+  </ul>
+
+  <h2>Privacy policy</h2>
+  <p>No personal data is stored on any server. All API calls are made locally from the owner's own machine using the owner's own credentials. No information is transmitted to, processed by, or shared with any third party. Token credentials never leave the owner's device.</p>
+
+  <h2>Terms of service</h2>
+  <p>This is a single-user personal integration with no public user base. There are no user-facing terms beyond Google's own Terms of Service and OAuth scope consent. The app does not collect, retain, or monetize user data in any form.</p>
+  <hr>
+  <p style="font-size:0.8rem; color:#888;">Owner-operated. Not a public application. No analytics, no tracking, no third-party access.</p>
+</body>
+</html>
